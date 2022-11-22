@@ -13,7 +13,7 @@ __config__ = {
     'data_provider': 'data.MPII.dp',
     'network': 'models.posenet.PoseNet',
     'inference': {
-        'nstack': 8,
+        'nstack': 2,
         'inp_dim': 256,
         'oup_dim': 16,
         'num_parts': 16,
@@ -27,7 +27,7 @@ __config__ = {
         'batchsize': 16,
         'input_res': 256,
         'output_res': 64,
-        'train_iters': 1000,
+        'train_iters': 100,
         'valid_iters': 10,
         'learning_rate': 1e-3,
         'max_num_people' : 1,
